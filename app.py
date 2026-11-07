@@ -7,7 +7,7 @@ st.set_page_config(page_title="פרויקט חיזוי מחירי בתים", pag
 
 # טעינת הנתונים
 # יש לשנות את housing.csv לשם קובץ ה-CSV שלכם
-df = pd.read_csv("housing.csv")
+df = pd.read_csv("/House Price Prediction Dataset.csv")
 
 # עיצוב בסיסי
 st.markdown("""
